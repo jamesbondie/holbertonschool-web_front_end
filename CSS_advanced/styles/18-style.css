@@ -34,7 +34,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04em;
     --nav-item-display: inline-block;
-    --nav-item-margin: calc(3 * var(--font-size-medium)) 0 0 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 }
 
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -150,15 +150,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding-top: calc(var(--root-size) / 2);
-    padding-bottom: calc(var(--root-size) / 2);
-    padding-left: var(--root-size);
-    padding-right: var(--root-size);
+    padding: 0.5rem 1rem;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
