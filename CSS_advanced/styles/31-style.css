@@ -386,7 +386,7 @@ ul.row {
     position: absolute;
     top: -4.5rem;
     left: -1rem;
-    background-color: #efeded;
+    color: #efeded;
     font-size: 10rem;
     z-index: -1;
 }
